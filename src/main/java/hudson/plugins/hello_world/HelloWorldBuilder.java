@@ -45,7 +45,7 @@ public class HelloWorldBuilder extends Builder {
             FilePath fp = new FilePath(build.getWorkspace(), "path.json");
             listener.getLogger().println("filepath: "+fp.getRemote());
 
-        String jsonData1 = this.readFile("path.json");
+        String jsonData1 = fp.readToString();
             listener.getLogger().println("jsondata1: "+jsonData1);
         //String jsonData = "{\"one\":\"won\",\"two\":2,\"three\":false}";
         //listener.getLogger().println("jsonData: "+jsonData);
@@ -68,23 +68,6 @@ public class HelloWorldBuilder extends Builder {
     public DescriptorImpl getDescriptor()
     {
         return (DescriptorImpl)super.getDescriptor();
-    }
-
-    public static String readFile(String filename) {
-        String result = "";
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(filename));
-            StringBuilder sb = new StringBuilder();
-            String line = br.readLine();
-            while (line != null) {
-                sb.append(line);
-                line = br.readLine();
-            }
-            result = sb.toString();
-        } catch(Exception e) {
-            e.printStackTrace();
-        }
-        return result;
     }
 
     @Extension
