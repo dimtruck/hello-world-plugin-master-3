@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jvnet.hudson.main:hudson-core:1.392">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/hudson/main/hudson-core/1.392/hudson-core-1.392.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/hudson/main/hudson-core/1.392/hudson-core-1.392-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/hudson/main/hudson-core/1.392/hudson-core-1.392-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

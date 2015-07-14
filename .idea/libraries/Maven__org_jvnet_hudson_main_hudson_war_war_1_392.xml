@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jvnet.hudson.main:hudson-war:war:1.392">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/hudson/main/hudson-war/1.392/hudson-war-1.392.war!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/hudson/main/hudson-war/1.392/hudson-war-1.392-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/hudson/main/hudson-war/1.392/hudson-war-1.392-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
