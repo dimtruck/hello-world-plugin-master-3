@@ -1,5 +1,6 @@
 package hudson.plugins.hello_world;
 
+import hudson.FilePath;
 import hudson.Launcher;
 import hudson.Extension;
 import hudson.model.Build;
@@ -39,15 +40,18 @@ public class HelloWorldBuilder extends Builder {
     public boolean perform(AbstractBuild build, Launcher launcher, BuildListener listener)
     {
         if(getDescriptor().useFrench())
-        {listener.getLogger().println("Bonjour, "+name+"!");
+        {//listener.getLogger().println("Bonjour, "+name+"!");
+
+            FilePath fp = new FilePath(build.getWorkspace(), "path.json");
+            listener.getLogger().println("filepath: "+fp.getRemote());
 
         String jsonData1 = this.readFile("path.json");
             listener.getLogger().println("jsondata1: "+jsonData1);
-        String jsonData = "{\"one\":\"won\",\"two\":2,\"three\":false}";
-        listener.getLogger().println("jsonData: "+jsonData);
-        JSONObject jobj = JSONObject.fromObject(jsonData);
-        Map map = jobj;
-        System.out.println(map);
+        //String jsonData = "{\"one\":\"won\",\"two\":2,\"three\":false}";
+        //listener.getLogger().println("jsonData: "+jsonData);
+        //JSONObject jobj = JSONObject.fromObject(jsonData);
+        //Map map = jobj;
+        //System.out.println(map);
         //jobj.fromObject(jsonData);
         /*JSONArray jarr = new JSONArray();
         jarr.fromObject(jobj.getJSONArray("steps"));

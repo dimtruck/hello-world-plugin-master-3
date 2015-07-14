@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c44c602-1256-4d88-b5f4-54ad80ec7281" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello-world.iml" afterPath="$PROJECT_DIR$/hello-world.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hudson/plugins/hello_world/HelloWorldBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/hudson/plugins/hello_world/HelloWorldBuilder.java" />
     </list>
     <ignored path="hello-world.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,9 +27,12 @@
       <file leaf-file-name="HelloWorldBuilder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/hudson/plugins/hello_world/HelloWorldBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6873977">
-              <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
-              <folding />
+            <state vertical-scroll-proportion="-0.117839605">
+              <caret line="23" column="45" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="45" />
+              <folding>
+                <element signature="e#2750#2751#0" expanded="true" />
+                <element signature="e#2780#2781#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -575,7 +576,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -587,7 +590,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2750#2751#0" expanded="true" />
+            <element signature="e#2780#2781#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -661,9 +667,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hudson/plugins/hello_world/HelloWorldBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6873977">
-          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
-          <folding />
+        <state vertical-scroll-proportion="-0.117839605">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="45" />
+          <folding>
+            <element signature="e#2750#2751#0" expanded="true" />
+            <element signature="e#2780#2781#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
