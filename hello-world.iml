@@ -10,6 +10,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="org.json:json:20141113" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jvnet.hudson.main:hudson-war:war:1.392" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jvnet.hudson.main:hudson-core:1.392" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jvnet.hudson.main:remoting:1.392" level="project" />
@@ -172,6 +173,5 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.jvnet.hudson.main:ui-samples-plugin:1.392" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.3.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.4" level="project" />
-    <orderEntry type="library" name="org.json:json:20141113" level="project" />
   </component>
 </module>
